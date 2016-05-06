@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="E:/eclipse/jar包/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse/jar包/guice-3.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/eclipse/jar包/poi-3.12/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse/jar包/selenium-server-2.52.0-srcs.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse/jar包/selenium-server-standalone-2.52.0.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse/jar包/reportng-1.1.4/reportng-1.1.4/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse/jar包/reportng-1.1.5.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

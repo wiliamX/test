@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+<login>
+<input>
+<LoginLnk propertyName="Xpath" value="//div[@class='islogin']/a[1]"></LoginLnk>
+<userName propertyName="Xpath" value="//input[@id='j_username']"></userName>
+<passWord propertyName="Xpath" value="//input[@id='j_password']"></passWord>
+<loginBtn propertyName="Xpath" value="//a[@id='login_btn']"></loginBtn>
+</input>
+<assert>
+<nameErr propertyName="Xpath" value="//p[@id='loginname_error']"></nameErr>
+<pwdErr propertyName="Xpath" value="//p[@id='loginpwd_error']"></pwdErr>
+<notMatch propertyName="Xpath" value="//p[@id='loginname_error' and @style='display: block;']"></notMatch>
+<success propertyName="Xpath" value="//div[@class='info clearfix']/a/em"></success>
+</assert>
+</login>
+<search>
+</search>
+</test>
